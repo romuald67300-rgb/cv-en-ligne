@@ -37,6 +37,17 @@ h1, h2 {
 .cv {
     width: 1160px;
     margin: 0 auto;
-    background-color: var(--color-bg-light);
-    height: 300px;
 }
+.corps {
+    display: flex;
+    min-height: 400px;
+}
+aside {
+    width: 30%;
+    background-color: var(--color-bg-light);
+}
+
+main {
+    flex: 1;
+    background-color: var(--color-white);
+} 
