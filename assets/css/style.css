@@ -83,10 +83,47 @@ header li {
     display: flex;
     min-height: 400px;
 }
-
 aside {
     width: 30%;
     background-color: var(--color-bg-light);
+    padding: 50px;
+}
+
+aside h2 {
+    color: var(--color-primary);
+    font-weight: 400;
+    font-size: 1.5rem;
+    border-bottom: 1px solid var(--color-border);
+    padding-bottom: 10px;
+    margin: 0 0 20px 0;
+}
+
+aside ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0 0 40px 0;
+}
+aside li{
+    padding: 4px 0;
+}
+
+.niveaux li {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+}
+
+.niveaux li span:first-child {
+    font-weight: bold;
+}
+
+.puces {
+    list-style: square;
+    padding-left: 20px;
+}
+
+.puces li::marker {
+    color: var(--color-primary);
 }
 
 main {
