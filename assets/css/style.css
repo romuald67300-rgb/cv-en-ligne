@@ -67,6 +67,7 @@ header div {
     flex: 1;
     text-align: center;
 }
+
 header ul {
     list-style: none;
     padding: 0;
@@ -74,6 +75,7 @@ header ul {
     display: flex;
     flex-wrap: wrap;
 }
+
 header li {
     width: 50%;
     padding: 5px 0;
@@ -83,13 +85,15 @@ header li {
     display: flex;
     min-height: 400px;
 }
+
 aside {
     width: 30%;
     background-color: var(--color-bg-light);
     padding: 50px;
 }
 
-aside h2 {
+aside h2,
+main h2 {
     color: var(--color-primary);
     font-weight: 400;
     font-size: 1.5rem;
@@ -103,7 +107,8 @@ aside ul {
     padding: 0px;
     margin: 0 0 40px 0;
 }
-aside li{
+
+aside li {
     padding: 4px 0;
 }
 
@@ -127,6 +132,43 @@ aside li{
 }
 
 main {
+    margin-bottom: 30px;
     flex: 1;
     background-color: var(--color-white);
+    padding: 50px;
+}
+
+main section {
+    margin-bottom: 30px;
+}
+
+.profil p {
+    text-align: justify;
+    text-indent: 30px;
+}
+
+article {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+article>p {
+    color: var(--color-primary);
+    white-space: nowrap;
+}
+
+article P {
+    margin: 0;
+}
+
+article h3 {
+    font-size: 1rem;
+    margin: 0;
+}
+
+article div p {
+    font-style: italic;
+    font-size: 0.8rem;
 }
