@@ -67,11 +67,20 @@ header div {
     flex: 1;
     text-align: center;
 }
+header h1 {
+    font-size: 3rem;
+    margin: 0;
+}
+header div > p {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
 
 header ul {
     list-style: none;
     padding: 0;
-    margin: 0;
+    margin: 0 auto;
+    max-width: 600PX;
     display: flex;
     flex-wrap: wrap;
 }
@@ -79,6 +88,7 @@ header ul {
 header li {
     width: 50%;
     padding: 5px 0;
+    text-align: left;
 }
 
 .corps {
@@ -120,6 +130,12 @@ aside li {
 
 .niveaux li span:first-child {
     font-weight: bold;
+}
+.niveaux li span:last-child {
+    white-space: nowrap;
+}
+.niveaux i {
+    color: var(--color-primary);
 }
 
 .puces {
@@ -171,4 +187,23 @@ article h3 {
 article div p {
     font-style: italic;
     font-size: 0.8rem;
+}
+
+footer {
+        
+    background-color: var(--color-primary);
+    color: var(--color-white);
+    padding: 30px;
+    text-align: center;
+}
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 15px 0;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+footer i {
+    font-size: 1.8rem;
 }
