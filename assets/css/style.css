@@ -59,7 +59,7 @@ header a {
     text-decoration: none;
 }
 
-header img {
+header > img {
     width: 150px;
     height: 150px;
     object-fit: cover;
@@ -94,7 +94,9 @@ header li {
     padding: 5px 0;
     text-align: left;
 }
-
+header li img {
+    width: 1rem;
+}
 .corps {
     display: flex;
     min-height: 400px;
