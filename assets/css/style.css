@@ -216,3 +216,6 @@ footer ul {
 footer img {
     width: 1.8rem;
 }
+footer a:hover {
+    opacity: 0.8;
+}
