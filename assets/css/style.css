@@ -142,8 +142,9 @@ aside li {
 .niveaux li span:last-child {
     white-space: nowrap;
 }
-.niveaux i {
-    color: var(--color-primary);
+.niveaux img {
+    width: 1rem;
+    vertical-align: middle;
 }
 
 .puces {
