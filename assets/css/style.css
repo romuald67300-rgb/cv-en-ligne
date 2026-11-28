@@ -212,6 +212,6 @@ footer ul {
     justify-content: center;
     gap: 30px;
 }
-footer i {
-    font-size: 1.8rem;
+footer img {
+    width: 1.8rem;
 }
