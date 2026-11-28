@@ -59,7 +59,7 @@ header a {
     text-decoration: none;
 }
 
-header img {
+header > img {
     width: 150px;
     height: 150px;
     object-fit: cover;
@@ -93,6 +93,10 @@ header li {
     width: 50%;
     padding: 5px 0;
     text-align: left;
+}
+header li img {
+    width: 1rem;
+    vertical-align: middle;
 }
 
 .corps {
@@ -138,8 +142,9 @@ aside li {
 .niveaux li span:last-child {
     white-space: nowrap;
 }
-.niveaux i {
-    color: var(--color-primary);
+.niveaux img {
+    width: 1rem;
+    vertical-align: middle;
 }
 
 .puces {
@@ -208,6 +213,6 @@ footer ul {
     justify-content: center;
     gap: 30px;
 }
-footer i {
-    font-size: 1.8rem;
+footer img {
+    width: 1.8rem;
 }
