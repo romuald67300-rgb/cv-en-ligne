@@ -96,7 +96,9 @@ header li {
 }
 header li img {
     width: 1rem;
+    vertical-align: middle;
 }
+
 .corps {
     display: flex;
     min-height: 400px;
